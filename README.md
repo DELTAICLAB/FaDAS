@@ -66,9 +66,9 @@ The system includes:
    ### 2. Enable USB-to-Serial Converter Driver
 
 ## Build Project
-```sh
+\`\`\sh
    petalinux-build
-
+\`\`\
 
 ## Packaging and Booting
 Prepare SD card and boot the system.
