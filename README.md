@@ -56,15 +56,27 @@ The system includes:
    ```
 
 2.  **Configuration:**
+    ```sh
+   cd dpuOS
+   petalinux-config --get-hw-description= $PATH_XSA_FILE
+   ```
 
    1. ***Enable FPGA Manager***
    2. ***Disable TFTPboot Copy***
    3. ****Select EXT4 as Root Filesystem Type***
 
    ## Kernel Configuration
+   ```sh
+   petalinux-config -c kernel
+   ```
 
    1. ***Enable DPU Driver***
    2. ***Enable USB-to-Serial Converter Driver***
+
+   ##Rootfs Configuration
+   ```sh
+   petalinux-config -c rootfs
+   ```
 
 ## Build Project
    ```sh
