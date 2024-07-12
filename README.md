@@ -54,21 +54,21 @@ The system includes:
    ```sh
    petalinux-create -t project -s <path_to_bsp_file> --name dpuOS
 
-   ## Configuration
+2.  **Configuration:**
 
-### 1. Enable FPGA Manager
-### 2. Disable TFTPboot Copy
-### 3. Select EXT4 as Root Filesystem Type
+   ### 1. Enable FPGA Manager
+   ### 2. Disable TFTPboot Copy
+   ### 3. Select EXT4 as Root Filesystem Type
 
-## Kernel Configuration
+   ## Kernel Configuration
 
-### 1. Enable DPU Driver
-### 2. Enable USB-to-Serial Converter Driver
+   ### 1. Enable DPU Driver
+   ### 2. Enable USB-to-Serial Converter Driver
 
 ## Build Project
-\`\`\`bash
-petalinux-build
-\`\`\`
+```sh
+   petalinux-build
+
 
 ## Packaging and Booting
 Prepare SD card and boot the system.
