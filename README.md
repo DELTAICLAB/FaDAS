@@ -53,22 +53,24 @@ The system includes:
 1. **Project Creation:**
    ```sh
    petalinux-create -t project -s <path_to_bsp_file> --name dpuOS
+   ```
 
 2.  **Configuration:**
 
-   ### 1. Enable FPGA Manager
-   ### 2. Disable TFTPboot Copy
-   ### 3. Select EXT4 as Root Filesystem Type
+   1. ***Enable FPGA Manager***
+   2. ***Disable TFTPboot Copy***
+   3. ****Select EXT4 as Root Filesystem Type***
 
    ## Kernel Configuration
 
-   ### 1. Enable DPU Driver
-   ### 2. Enable USB-to-Serial Converter Driver
+   1. ***Enable DPU Driver***
+   2. ***Enable USB-to-Serial Converter Driver***
 
 ## Build Project
-\`\sh
+   ```sh
    petalinux-build
-\`\
+   ```
+
 
 ## Packaging and Booting
 Prepare SD card and boot the system.
@@ -84,11 +86,15 @@ Generate and compile the device tree overlay to specify hardware configuration.
 3. Install Vitis AI library and model files.
 
 ### Run ADAS Application
-\`\`\`bash
+```sh
 cd ~/examples/vai_runtime/adas_detection
 bash -x build.sh
 ./adas_detection /dev/video0 /usr/share/vitis_ai_library/models/yolov3_adas_pruned_0_9/yolov3_adas_pruned_0_9.xmodel
-\`\`\`
+```
+
+## DEMO
+
+[Demo Video](https://youtu.be/YelrpggfvKM)
 
    
 
