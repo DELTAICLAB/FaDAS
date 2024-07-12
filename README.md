@@ -17,9 +17,9 @@ This project is about running and accelerating vehicle detection and mapping ADA
 
 ## Prerequires
 
-- **Vitis-AI:** High-level libraries and APIs for AI inference with DPU cores.
-- **Deep Learning Unit (DPUCZDX8G):** A configurable computation engine optimized for convolutional neural networks.
-- **PetaLinux:** An embedded Linux SDK targeting FPGA-based SoC designs.
+- **[Vitis-AI](https://github.com/Xilinx/Vitis-AI/tree/3.0):** High-level libraries and APIs for AI inference with DPU cores.
+- **[Deep Learning Unit (DPUCZDX8G)](https://github.com/Xilinx/Vitis-AI/tree/3.0/dpu):** A configurable computation engine optimized for convolutional neural networks.
+- **[PetaLinux](https://docs.amd.com/r/2022.2-English/ug1144-petalinux-tools-reference-guide/Installation-Requirements):** An embedded Linux SDK targeting FPGA-based SoC designs.
 
 ## System Architecture
 
@@ -47,5 +47,22 @@ The system includes:
 
 
 ## Hardware Design
+
+![hardware](https://github.com/DELTAICLAB/FaDAS/blob/main/images/overlay.jpg)
+
+### Connections:
+
+- I2C pins connected to KV260 Pmod pins
+- Necessary pull-up resistors enabled for I2C communication
+
+## PetaLinux Configuration and Compilation
+
+### Steps:
+
+1. **Project Creation:**
+   ```sh
+   petalinux-create -t project -s <path_to_bsp_file> --name dpuOS```
+
+   
 
 
