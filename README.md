@@ -56,7 +56,7 @@ The system includes:
    ```
 
 2.  **Configuration:**
-    ```sh
+   ```sh
    cd dpuOS
    petalinux-config --get-hw-description= $PATH_XSA_FILE
    ```
@@ -66,6 +66,7 @@ The system includes:
    3. ****Select EXT4 as Root Filesystem Type***
 
    ## Kernel Configuration
+
    ```sh
    petalinux-config -c kernel
    ```
@@ -73,7 +74,7 @@ The system includes:
    1. ***Enable DPU Driver***
    2. ***Enable USB-to-Serial Converter Driver***
 
-   ##Rootfs Configuration
+   ## Rootfs Configuration
    ```sh
    petalinux-config -c rootfs
    ```
