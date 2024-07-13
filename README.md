@@ -5,7 +5,6 @@
 #### Ilker Acar               (i.acar2020@gtu.edu.tr)
 #### Duygu Zeynep Tuncel      (d.tuncel2020@gtu.edu.tr)
 #### Mehmet Salih Turhan      (m.turhan2020@gtu.edu.tr)
-#### Beyzanur Cam             (b.cam2021@gtu.edu.tr)
 ### Supervisor:
 #### İhsan Cicek
 
