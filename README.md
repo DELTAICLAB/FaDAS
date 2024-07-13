@@ -13,7 +13,7 @@
 This project is about running and accelerating vehicle detection and mapping ADAS applications in parking lot using Deep Learning Unit (DPU) on KV260 FPGA board. 
 
 ## Documentation
-[Documentation]()
+[Documentation](https://github.com/DELTAICLAB/FaDAS/blob/main/docs/FaDAS_manuel.pdf)
 
 ## Prerequires
 
@@ -107,7 +107,7 @@ bash -x build.sh
 
 ## DEMO
 
-[Demo Video](https://youtu.be/YelrpggfvKM)
+[Demo Video](https://youtu.be/eYiD464j-Gg)
 
    
 
